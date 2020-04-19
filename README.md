@@ -12,3 +12,4 @@
 - CAP
 - Apache Hadoop
 - Load Balance
+- Cache
