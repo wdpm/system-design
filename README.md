@@ -7,11 +7,13 @@
 - Monolithic Architecture
 - Microservice Architecture
 - Message Queue
-- Hash
+- 分布式
+  - [Hash 取模](docs\Hash-mod-N.md)
+  - 一致哈希
 - LRU
 - CAP
 - Apache Hadoop
 - Load Balance
 - Cache
 - Algorithms
-  - 红包算法
+  - [红包算法](src\main\java\io\github\wdpm\algorithms\RedPacket.java)
