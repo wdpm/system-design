@@ -32,7 +32,7 @@ public abstract class AbstractConsistentHash {
      * @param key
      * @return
      */
-    protected abstract String firstNodeValue(String key);
+    public abstract String firstNodeValue(String key);
 
     /**
      * 添加节点列表
@@ -48,7 +48,7 @@ public abstract class AbstractConsistentHash {
     }
 
     /**
-     * 该hash算法非常关键，必须充分考虑到每一位。
+     * 该hash算法非常关键，必须充分考虑到每一位。作用：将String转化为Long类型的hash值。
      * <p>
      * 传统的String.hashCode()生成的hash值很可能偏小或者偏大
      *

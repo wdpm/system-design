@@ -62,7 +62,7 @@ public class SortArrayMap {
 
     public void add(Long key, String value, boolean isVNode) {
         ensureCapacity(size + 1);
-        Node node = new Node(key, value,true);
+        Node node = new Node(key, value, isVNode);
         serviceNodes[size++] = node;
     }
 

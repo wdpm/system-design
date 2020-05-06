@@ -1,18 +1,20 @@
 package io.github.wdpm.algorithms.consistenthash;
 
 import java.util.ArrayList;
-import java.util.StringJoiner;
 
 /**
+ * 使用SortArrayMap实现的一致哈希
+ *
  * @author evan
  * @date 2020/5/6
+ * @see io.github.wdpm.algorithms.consistenthash.AbstractConsistentHash
+ * @see io.github.wdpm.algorithms.consistenthash.TreeMapConsistentHash
  */
 public class SortArrayMapConsistentHash extends AbstractConsistentHash {
 
-    public static final String       VNODE_PREFIX = "vir";
-    private             SortArrayMap sortArrayMap = new SortArrayMap();
-
-    public static final int VIRTUAL_NODES = 2;
+    public static final String       VNODE_PREFIX  = "vir";
+    private             SortArrayMap sortArrayMap  = new SortArrayMap();
+    public static final int          VIRTUAL_NODES = 2;
 
     @Override
     public void add(long key, String value) {

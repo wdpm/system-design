@@ -114,3 +114,14 @@ key: helloworld ;hash: 2365808380
 ```
 1 = {SortArrayMap$Node@746} "Node[key=192733553, value='127.0.0.2', isVirtual=true]"
 ```
+
+代码实现参考：
+- [AbstractConsistentHash](..\src\main\java\io\github\wdpm\algorithms\consistenthash\AbstractConsistentHash.java)
+- [SortArrayMapConsistentHash](..\src\main\java\io\github\wdpm\algorithms\consistenthash\SortArrayMapConsistentHash.java)
+- [TreeMapConsistentHash](..\src\main\java\io\github\wdpm\algorithms\consistenthash\TreeMapConsistentHash.java)
+
+> TreeMapConsistentHash 没有实现虚拟节点标记位。
+
+## 路由使用
+- 参阅 [io.github.wdpm.algorithms.consistenthash.route](..\src\main\java\io\github\wdpm\algorithms\consistenthash\route)
+
