@@ -19,6 +19,9 @@
 ### Graph
 - Neo4j
 
+### Memory
+- ElasticSearch
+
 ## 何时选择 SQL 数据库
 - scheme几乎不改变
 - 保证ACID约束
