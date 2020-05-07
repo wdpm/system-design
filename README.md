@@ -9,8 +9,8 @@
 - Message Queue
 - 分布式
   - [Hash 取模](docs\Hash-mod-N.md)
-  - 一致哈希
-- LRU
+  - [一致 Hash](docs\Consistent-hash.md)
+- [LRU](docs\LRU.md)
 - CAP
 - Apache Hadoop
 - Load Balance
