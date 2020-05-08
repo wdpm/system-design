@@ -1,4 +1,4 @@
-package io.github.wdpm.algorithms;
+package io.github.wdpm;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

@@ -10,7 +10,7 @@
   - [Microservice Architecture](docs\Microservice-architecture.md)
 - Message Queue
 - 线程间通信
-  - [交替打印奇偶数](\src\main\java\io\github\wdpm\algorithms\TwoThread.java)
+  - [交替打印奇偶数](\src\main\java\io\github\wdpm\TwoThread.java)
 - 分布式
   - [Hash 取模](docs\Hash-mod-N.md)
   - [一致 Hash](docs\Consistent-hash.md)
@@ -20,5 +20,7 @@
 - [CAP](docs\CAP.md)
 - Apache Hadoop
 - Load Balance
+- Big data
+  - [bloom filter](docs\Bloom-filter.md)
 - Algorithms
   - [红包算法](src\main\java\io\github\wdpm\algorithms\RedPacket.java)
