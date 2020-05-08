@@ -5,7 +5,7 @@ import com.google.common.hash.Funnels;
 import org.junit.jupiter.api.Assertions;
 
 /**
- * 为了测试guava bloom filter的性能
+ * 测试guava bloom filter的性能
  * <p>
  * -Xms64m -Xmx64m -XX:+PrintHeapAtGC -XX:+HeapDumpOnOutOfMemoryError
  *
